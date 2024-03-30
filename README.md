@@ -4,7 +4,9 @@ This is my developer portfolio
 ## Description
 This is my portfolio which I have developed during my coding bootcamp. My achievements during this time are logged here for easy viewing and can be accessed at https://ramisachowdhury.github.io/my-portfolio
 
-![Portfolio webpage preview](./images/portfolio-preview.mp4)
+
+https://github.com/RamisaChowdhury/my-portfolio/assets/151648865/2ef57dc4-2005-42be-bcc1-d72a37489b12
+
 
 ## Installation
 N/A
