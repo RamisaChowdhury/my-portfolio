@@ -1,0 +1,193 @@
+
+h2 {
+    font-size: 300%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 2%;
+}
+
+/* Navbar */
+.nav-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    z-index: 20;
+    padding: 0px 50px 0px 50px;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: fixed;
+    bottom: 4%;
+    color: #f0f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list > button {
+    border: double rgb(101, 0, 224);
+    opacity: 10;
+    background-color: white;
+    width: 20%;
+    border-radius: 999px;
+
+}
+
+/* hero */
+.glow-circle {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow:
+        inset 0 0 0px #fff,
+        inset 20px 0 300px #f0f,
+        inset -20px 0 300px #0ff,
+        inset 20px 0 600px #f0f,
+        inset -20px 0 600px #0ff,
+        0 0 50px #fff,
+        -10px 0 80px #f0f,
+        10px 0 80px #0ff;
+    box-shadow:
+        0 0 50px #fff,
+        -10px 0 80px #f0f,
+        10px 0 80px #0ff;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(200, 0, 255);}
+}
+
+.hero {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 500%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subheading {
+    font-size: 200%;
+}
+
+/* projects */
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 70vw;
+}
+
+.modal-body:hover {
+    border-radius: 12px;
+    box-shadow:
+        0 0 50px #fff,
+        -5px 0 40px #f0f,
+        5px 0 40px #0ff;
+}
+
+.card {
+    margin: 5%;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+
+/* skills */
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* connect */
+#connect {
+    margin-bottom: 10%;
+}
+
+.connect-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me {
+    text-align: center;
+}
+
+
+/* button */
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+button:hover {
+    box-shadow:
+        0 0 50px #fff,
+        -5px 0 40px #f0f,
+        5px 0 40px #0ff;
+}
+
+.links > button {
+    text-decoration: none;
+    opacity: 10;
+    background-color: white;
+    width: 30%;
+    border-radius: 999px;
+}
